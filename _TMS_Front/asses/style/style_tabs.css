@@ -1,0 +1,105 @@
+   /* Блок "Вкладки" */
+
+	/* Раздел "Линия вкладок" */
+	.tabs-conteiner__tab {
+		display: inline; 
+		margin-top: 60px;
+	}
+
+	/* Удалить Radio_Button */
+	.tab__tab-wrapper {
+		display: none;
+	}
+	
+	/* !!!РАЗОБРАТЬСЯ!!!
+	Отобразить контент ОДНОЙ вкладки */
+
+		{
+		display: none;
+		border: 1px solid #e0e0e0;
+		padding: 10px 15px;
+		font-size: 16px;
+	 }
+
+
+	/* Переключить вкладки */
+	#tab-1:checked ~ #tabs-content-1,
+	#tab-2:checked ~ #tabs-content-2,
+	#tab-3:checked ~ #tabs-content-3 { 
+		display: block;
+	}
+ 	
+	/* Переключить цвет активной вкладки */
+	#tab-1:checked ~ .label-1,
+	#tab-2:checked ~ .label-2,
+	#tab-3:checked ~ .label-3 {
+		background: #dafb57;
+		border: 1px solid #C6CBCD;
+		/* border-bottom-color: #ffffff; */
+	}
+	
+	/* Настройть внешний вид вкладок */
+	.tabs__title {
+		margin-top: 60px;
+		font-family: "Raleway-VariableFont";
+		background: #eef6f9;
+		padding: 10.6px 78.9px; /* Размер вкладок */
+		border: 0px solid #C6CBCD; 
+		margin-bottom: -1px; /* Отступ вкладок снизу */
+		border-bottom-color: #ef0505; 
+		border-radius: 5px 5px 0 0; /* Закругление углов вкладок */
+		display: inline-block;
+		cursor: pointer;
+	}
+
+
+	/* Раздел "Содержимое вкладок" */
+	.tabs-content {
+		display: flex;
+		border: 1px solid #C6CBCD;
+	}
+
+	.tabs-content__text {
+		padding-left: 128.4px;
+	}
+
+	.tabs-content__text h3 {
+		font: normal normal 700 30px/40.85px "OpenSans-VariableFont";
+		text-align: left;
+		padding: 41.60px 0px 41.55px 0px;
+		margin: 0px;
+		}
+
+	.tabs-content__text p {
+		font: normal normal 400 18px/21.13px "Raleway-VariableFont";
+		text-align: left;
+		padding: 9.94px 0px 9.94px 0px;
+		margin: 0px;
+		margin-bottom: 30px;
+	}
+
+	.tabs-content__text input {
+		font: normal normal 600 18px/24.51px "OpenSans-VariableFont";
+		color: #ffffff; 
+		background-color: #EC7979;
+		padding: 16.8px 95.99px 16.7px 95.99px;
+		border: 0px;
+		margin: 0px;
+	}
+
+
+	.tabs-content__text input:hover {
+		background-color: #AB4949;
+		cursor: pointer;
+	}
+
+	.tabs-content__text input:active {
+		background-color: #EC7979;
+		box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+	}
+
+	.tabs-content__image img {
+		display: flex;
+		width: 470px;
+		height: 500px;
+	}

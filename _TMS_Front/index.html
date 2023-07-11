@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset=UTF-8>
+		<meta http-equiv="X-UA-Compatible" content="IE=adge"> <!-- IE=adge - Режим документа-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Первый шаг к масштабируемости-->
+		<title>HW_3_tabs</title>
+		<link rel="stylesheet" href="./asses/style/style.css">
+		<link rel="stylesheet" href="./asses/style/style_tabs.css">
+		<link rel="stylesheet" href="./asses/style/style_about.css">
+		<link rel="stylesheet" href="./asses/style/style_prising.css">
+		<link rel="stylesheet" href="./asses/style/style_reviews.css">
+	</head>
+
+	<body>
+
+		<!--Блок "Вкладки"-->
+		<div class="tabs">
+
+			<!--Раздел "Линия вкладок"-->
+			<div section="tabs-conteiner">
+
+				<!-- Вкладка-1 -->
+				<div class="tabs-conteiner__tab">
+					<input type="radio" name="action" id="tab-1" class="tab__tab-wrapper" checked/>
+					<label class="tabs__title label-1" id="title-1" for="tab-1">TAB ONE</label>
+				</div>
+
+				<!-- Вкладка-2 -->
+				<div class="tabs-conteiner__tab">
+					<input type="radio" name="action" id="tab-2" class="tab__tab-wrapper"/>
+					<label class="tabs__title label-2" id="title-2" for="tab-2">TAB TWO</label>
+				</div>
+
+				<!-- Вкладка-3 -->
+				<div class="tabs-conteiner__tab">
+					<input type="radio" name="action" id="tab-3" class="tab__tab-wrapper"/>
+					<label class="tabs__title label-3" id="title-3" for="tab-3">TAB TREE</label>
+				</div>
+			
+			</div>
+
+			<!--Раздел "Содержимое вкладок"-->
+			<div section="tabs-content">
+
+				<!--Все содержимые-->
+				<div class="tabs-contents">
+
+					<!--Содержимое-1-->
+					<div id="tabs-content-1" class="tabs-content">
+
+						<div class="tabs-content__text">
+							<h3>Tabs with soft transitioning effect.</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+								euismod <br/>
+								bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+								viverra <br/>
+								justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+								penatibus et magnis dis parturient montes.
+								<br/>
+								<br/>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+								euismod bibendum laoreet.</p>
+							<input type="button" value="Download"/> 
+						</div>
+
+						<div class="tabs-content__image">
+							<img src="../HW3_tabs/asses/img/tabs_icon_1.png" alt="Картинка_1" title="Picture_1"/>
+						</div>
+
+					</div>
+
+					<!--Содержимое-2-->
+					<div id="tabs-content-2" class="tabs-content">
+
+						<div class="tabs-content__text">
+							<h3>Tabs with soft transitioning effect.</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+								euismod <br/>
+								bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+								viverra <br/>
+								justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+								penatibus et magnis dis parturient montes.
+								<br/>
+								<br/>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+								euismod bibendum laoreet.</p>
+							<input type="button" value="Download"/> 
+						</div>
+
+						<div class="tabs-content__image">
+							<img src="../HW3_tabs/asses/img/tabs_icon_2.png" alt="Картинка_1" title="Picture_1"/>
+						</div>
+
+					</div>
+
+					<!--Содержимое-3-->
+					<div id="tabs-content-3" class="tabs-content">
+
+						<div class="tabs-content__text">
+							<h3>Tabs with soft transitioning effect.</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+								euismod <br/>
+								bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+								viverra <br/>
+								justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+								penatibus et magnis dis parturient montes.
+								<br/>
+								<br/>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+								euismod bibendum laoreet.</p>
+							<input type="button" value="Download"/> 
+						</div>
+
+						<div class="tabs-content__image">
+							<img src="../HW3_tabs/asses/img/tabs_icon_3.png" alt="Картинка_1" title="Picture_1"/>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>	
+		
+		<!--Блок "О нас"-->
+		<div class="about">
+				
+			<!--Раздел "Заголовок с линеей"-->
+			<div class="about-heading">
+
+				<!--Заголовок H2-->
+				<div class="about-heading__title">
+					<h2>Why this is awesome</h2>
+				</div>
+				
+				<!--Линия-->
+				<div class="about-heading__line">
+					<!-- Content -->
+				</div>
+
+				<!--Подзаголовок-->
+				<div class="about-heading__subtitle">
+					<h5>Lorem ipsum dolor sit, amet, consectetur adipiscing elit</h5>
+				</div>
+
+			</div>
+		
+			<!--Раздел "Сетка карточек"-->
+			<div class="about-cards">
+					
+				<!--Карточка-1-->		
+				<div class="about-cards__card">
+					<img src="./asses/img/about_icon_1.png" alt="Картинка_1" title="Picture_1"/>
+					<h4>Thoughtful Design</h4>
+					<p>Lorem ipsum dolor sit ament, consectetur aipiscing elit, Aenean euismod bibendum laoreet, 
+						Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+				</div> 
+
+				<!--Карточка-2-->
+				<div class="about-cards__card">
+					<img src="./asses/img/about_icon_2.png" alt="Картинка_2" title="Picture_2"/>
+					<h4>Thoughtful Design</h4>
+					<p>Lorem ipsum dolor sit ament, consectetur aipiscing elit, Aenean euismod bibendum laoreet, 
+						Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+				</div>
+
+				<!--Карточка-3-->
+				<div class="about-cards__card">
+					<img src="./asses/img/about_icon_3.png" alt="Картинка_3" title="Picture_3"/>
+					<h4>Thoughtful Design</h4>
+					<p>Lorem ipsum dolor sit ament, consectetur aipiscing elit, Aenean euismod bibendum laoreet, 
+						Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+				</div>
+
+			
+			</div>
+
+		</div>
+	
+		<!--Блок "Прайс"-->
+		<div class="prising">
+
+			<!--Раздел "Заголовок с линеей"-->
+			<div class="about-heading">
+
+				<!--Заголовок H2-->
+				<div class="about-heading__title">
+					<h2>Pricing options</h2>
+				</div>
+				
+				<!--Линия-->
+				<div class="about-heading__line">
+					<!-- Content -->
+				</div>
+
+				<!--Подзаголовок-->
+				<div class="about-heading__subtitle">
+					<h5>Lorem ipsum dolor sit, amet, consectetur adipiscing elit</h5>
+				</div>
+				
+			</div>
+			
+			<!--Раздел "Колонки с ценами"-->
+			<div section="pricing">
+
+				<!-- Все колонки -->
+            <div class="pricing__columns">
+                
+					<!--Колонка-1-->
+					<div class="pricing__column" id="column-1">
+                   
+							<div class="pricing__column-title">Basic</div>
+                 		<div class="pricing__column-price">$10</div>
+                 		<div class="pricing__column-content">Free for life</div> 						
+
+							<p class="pricing__column-component">1 gb of space</p>
+							<p class="pricing__column-component">1 gb of space</p>
+							<p class="pricing__column-component">1 gb of space</p>
+							<p class="pricing__column-component">1 gb of space</p>
+							<p class="pricing__column-component">1 gb of space</p>
+							<p class="pricing__column-component">1 gb of space</p>
+
+            	</div>
+
+					<!--Колонка-2-->
+					<div class="pricing__column" id="column-2">
+                   
+						<div class="pricing__column-title">Optima</div>
+						  <div class="pricing__column-price">$20</div>
+						  <div class="pricing__column-content">Free for life</div> 						
+
+						<p class="pricing__column-component">1 gb of space</p>
+						<p class="pricing__column-component">1 gb of space</p>
+						<p class="pricing__column-component">1 gb of space</p>
+						<p class="pricing__column-component">1 gb of space</p>
+						<p class="pricing__column-component">1 gb of space</p>
+						<p class="pricing__column-component">1 gb of space</p>
+
+					</div>
+
+					<!--Колонка-3-->
+					<div class="pricing__column" id="column-3">
+                   
+						<div class="pricing__column-title">Pro</div>
+						  <div class="pricing__column-price">$30</div>
+						  <div class="pricing__column-content">Free for life</div> 						
+
+						<p class="pricing__column-component">1 gb of space</p>
+						<p class="pricing__column-component">1 gb of space</p>
+						<p class="pricing__column-component">1 gb of space</p>
+						<p class="pricing__column-component">1 gb of space</p>
+						<p class="pricing__column-component">1 gb of space</p>
+						<p class="pricing__column-component">1 gb of space</p>
+
+					</div>
+
+            </div>
+
+         </div>
+				
+		</div>
+
+		<!--Блок "Обзоры"-->
+		<div class="reviews">
+		
+			<!--Раздел "Заголовок с линеей"-->
+			<div class="about-heading">
+
+				<!--Заголовок H2-->
+				<div class="about-heading__title">
+					<h2>What our customers are saying</h2>
+				</div>
+				
+				<!--Линия-->
+				<div class="about-heading__line">
+					<!-- Content -->
+				</div>
+
+				<!--Подзаголовок-->
+				<div class="about-heading__subtitle">
+					<h5>Lorem ipsum dolor sit, amet, consectetur adipiscing elit</h5>
+				</div>
+				
+			</div>
+			
+			<!--Раздел "Отзывы людей"-->
+			<div section="reviews">
+
+			<!--Раздел "Все отзывы"-->				
+				<div class="reviews__contents">
+
+					<!--Отзыв-1-->
+					<div class="reviews__content">
+
+						<div class="reviews__content-text">
+							<p>Lorem ipsum dolor sit amet,
+							consectetur adipisicing elit. Doloribus
+							accusamus expedita repellat similique
+							odio aspernatur ex, architecto eaque
+							quo suscipit.</p>
+						</div>
+
+						<div class="reviews__content-image">
+							<img src="./asses/img/reviews_1.png" alt="Человек-1" title="Chelovek_1" />
+								
+							<div class="reviews__content-image-info">
+								<h3>Davis Rhiel Madsen</h3>
+								<p>Manager</p>
+							</div>
+
+						</div>
+
+					</div>
+								
+					<!--Отзыв-2-->
+					<div class="reviews__content">
+
+						<div class="reviews__content-text">
+							<p>Lorem ipsum dolor sit amet,
+								consectetur adipisicing elit. Doloribus
+								accusamus expedita repellat similique
+								odio aspernatur ex, architecto eaque
+								quo suscipit.</p>
+						</div>
+
+						<div class="reviews__content-image">
+							<img src="./asses/img/reviews_2.png" alt="Человек-2" title="Chelovek_2"/>
+								
+							<div class="reviews__content-image-info">
+								<h3>Davis Rhiel Madsen</h3>
+								<p>Manager</p>
+							</div>
+
+						</div>
+
+					</div>
+
+					<!--Отзыв-3-->
+					<div class="reviews__content">
+
+						<div class="reviews__content-text">
+							<p>Lorem ipsum dolor sit amet,
+								consectetur adipisicing elit. Doloribus
+								accusamus expedita repellat similique
+								odio aspernatur ex, architecto eaque
+								quo suscipit.</p>
+						</div>
+
+						<div class="reviews__content-image">
+							<img src="./asses/img/reviews_3.png" alt="Человек-3" title="Chelovek_3"/>
+								
+							<div class="reviews__content-image-info">
+								<h3>Davis Rhiel Madsen</h3>
+								<p>Manager</p>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,78 @@
+/* Блок "Прайс" */
+	
+/* Раздел "Колонки с ценами" */
+.prising {
+	background: #F5F5F5;
+}
+
+.pricing__columns {
+	display: flex;
+	flex-flow: row nowrap; /* Выравнить строку, блоки не переносятся  */
+   justify-content: space-between; 
+	padding-bottom: 83.2px; /* Высота блока */
+}
+
+#column-1,
+#column-2,
+#column-3 {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Задать тень */
+}
+
+/* Поднять колонку при наведении */
+#column-1:hover,
+#column-2:hover,
+#column-3:hover {
+	transform: translateY(-25px) ;
+	filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+}	
+
+.pricing__column {
+	width: 370px;
+	height: 510px;
+}
+
+.pricing__column-title, 
+.pricing__column-price, 
+.pricing__column-content {
+   display: flex;
+	justify-content: center;
+	align-items: center; /* Выравнить по второстепенной оси ОДНИН ряд */
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}
+
+.pricing__column-title {
+   font: normal normal 700 24px/32.68px "OpenSans-VariableFont"; 
+	background-color: #333333;
+	width: 368.4px;
+	height: 58.4px;
+}
+
+.pricing__column-price {
+	font: normal normal 700 36px/42.26px "Raleway-VariableFont";
+	background-color: #333333;
+	width: 368.4px;
+	height: 98.4px;
+}
+
+.pricing__column-content {
+	font: normal normal 400 18px/21.13px "Raleway-VariableFont";
+	color: rgba(255, 255, 255, 0.5);
+	background-color: #333333;
+	width: 368.4px;
+	height: 48.4px;
+}
+
+.pricing__column-component {
+	font: normal normal 400 18px/21.13px "Raleway-VariableFont";
+	text-transform: capitalize; /* Задать высоту текста */
+	color: #86878B;
+	background-color: #ffffff;
+	border: 1px solid #F5F5F5;
+	width: 368.4px;
+	height: 48.4px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

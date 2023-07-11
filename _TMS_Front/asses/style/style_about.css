@@ -1,0 +1,61 @@
+	/* Блок "О нас" */
+	
+	/* Раздел "Заголовок с линеей" */
+	.about-heading {
+		padding-top: 40px; /* Высота блока */
+		padding-bottom: 45px; /* Высота блока */
+	}
+	
+	.about-heading__title {
+		font: normal normal 400 36px/42.26px "Raleway-VariableFont";
+		text-align: center;
+		text-transform: uppercase; /* Задается высота текста */
+		padding: 9.0625px 20px 9.0625px 20px;
+		margin: 0px;
+
+	}
+	
+	.about-heading__line {
+		width: 170px;
+		border-bottom: 1px solid #EC7979;
+		margin-left: auto;
+		margin-right: auto;
+	}
+		
+	.about-heading__subtitle {
+		font: normal normal 400 18px/21.13px "Raleway-VariableFont";
+		text-align: center;
+		color: #86878B;
+		padding: 0px 21px 0px 21px; 
+		margin: 0px;
+	}
+
+
+	/* Раздел "Сетка карточек" */
+	.about-cards {
+		padding-bottom: 60px; /* Высота блока */
+	}	
+	
+	.about-cards__card {
+		display: inline-block;
+		width: 370px;
+		height: 383px;
+		text-align: center;
+	}
+	
+	.about-cards__card h4 {
+		font: normal normal 700 24px/32.68px "OpenSans-VariableFont";
+		padding: 33.67px 50px 33.67px 50px;
+		margin: 0px;
+	}
+	
+	.about-cards__card p {
+		font: normal normal 400 18px/21.13px "Raleway-VariableFont";
+		margin: 0px 20px 0px 20px;
+	}
+	
+	.about-cards__card img { 
+		width: 170px;
+		height: 170px;
+		object-fit: cover /* Что бы img не искажался*/
+	}

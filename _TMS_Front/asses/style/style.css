@@ -1,0 +1,18 @@
+/* РАЗОБРАТЬСЯ С РАСТОЯНИЕМ МЕЖДУ КАРТОЧКАМИ!!!!! */
+
+@font-face {
+	/* Название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) */
+	font-family: "OpenSans-VariableFont"; 
+	font-family: "Raleway-VariableFont";
+	/* Адрес шрифта и тип */
+	src: url("../fonts/OpenSans-VariableFont.ttf") format("truetype"); 
+	src: url("../fonts/Raleway-VariableFont.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal;
+}
+
+body {
+	width: 1170px;
+	padding: 0px;
+	margin: 0.15px auto; /* Выравнить по середине */
+}
