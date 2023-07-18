@@ -1,0 +1,112 @@
+/* Блок "Вкладки" */
+
+/* Ширина всего блока */
+.tabs {
+	width: 100%;
+	height: 540px;
+	margin-top: 60px;
+}
+
+
+/* Раздел "Линия вкладок" */
+/* Ширина и месторасположение раздела */
+.tabs__conteiners {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/* Удалить Radio-Button */
+.tab__input {
+	display: none;
+}
+
+/* Переключить вкладки */
+#tab-1:checked ~ #tabs-content-1,
+#tab-2:checked ~ #tabs-content-2,
+#tab-3:checked ~ #tabs-content-3 { 
+	display: block;
+}
+
+/* Отобразить контент ОДНОЙ вкладки */
+.tab-card__content {
+	display: none;
+	height: 499.4px;
+	padding-left: 128.4px;
+	border: 1px solid #C6CBCD;
+} 
+
+/* Настройть внешний вид вкладок */
+.tab__title {
+	font: normal normal 400 14px/19.07px "Open Sans";
+	margin-bottom: -1px;  /* Отступ вкладок снизу */
+	border-radius: 5px 5px 0 0; /* Закругление углов вкладок */
+	display: inline-block;
+	cursor: pointer;
+}
+
+/* Настроить активную вкладку */
+#tab-1:checked ~ .tab-label-1,
+#tab-2:checked ~ .tab-label-2,
+#tab-3:checked ~ .tab-label-3 {
+	background: #dafb57;
+	width: 194px;
+	height: 40px;
+	padding-left: 9px;
+	border-bottom-color: #ffffff;
+} 
+
+/* Настроить НЕ активную вкладку */
+.tab__text-title {
+	width: 184px;
+	height: 40px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+
+/* Раздел "Содержимое вкладок" */
+.tab-content__title {
+	display: flex;
+	font: normal normal 700 30px/40.85px "Open Sans";
+	text-align: left;
+	width: 570px;
+	padding: 41.58px 0px;
+	margin: 0px;
+	} 
+
+.tab-content__text {
+	display: flex;
+	font: normal normal 400 18px/21.13px "Raleway";
+	text-align: left;
+	width: 570px;
+	padding: 20.5px 0px;
+	margin: 0px;
+}
+
+.tab-content__buttom {
+	font: normal normal 600 18px/24.51px "Open Sans";
+	color: #ffffff; 
+	background-color: #EC7979;
+	padding: 16.75px 91.03px;
+	border: 0px;
+	margin: 0px;
+	margin-top: 30px; 
+}
+
+.tab-content__buttom:hover {
+	background-color: #AB4949;
+	cursor: pointer;
+}
+
+.tab-content__buttom:active {
+	background-color: #EC7979;
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+}
+
+.tab-content__image {
+	width: 470px;
+	height: 500px;
+	margin-left: 570px;
+	margin-top: -423px;
+}

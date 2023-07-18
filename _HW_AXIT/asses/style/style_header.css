@@ -1,0 +1,43 @@
+/* Блок "Шапка" */
+
+.header {
+	width: 100%;
+	background: #000000;
+}
+
+.header__logo-nav {
+	width: 1170px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+}
+
+.header_logo img {
+	width: 183.1px;
+	height: 74.85px;
+}
+
+.header_nav {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.header_nav a {
+	height: 75px;
+	width: 113.8px;
+	font: normal normal 600 14px/19.07px "Open Sans";
+	text-decoration: none;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header_nav a:hover {
+	background-color: #EC7979;
+}
+
+.header_nav a:active {
+	background-color:#AB4949;
+}

@@ -1,0 +1,95 @@
+/* Блок "О нас" */
+
+/* Ширина всего блока */
+.contact {
+	width: 100%;
+	margin-bottom: 60px; 
+}
+
+
+/* Раздел "Контактная форма + Кнопка" */
+/* Ширина и месторасположение раздела */
+.contact__forms-focus-button {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/* Настроки контактной формы */
+.contact__forms-focus {
+	display: flex;
+	flex-flow: row wrap;
+   justify-content: space-between; 
+}
+
+/* Настроки формы регистрации */
+.contact__form-name {
+	height: 180px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+}
+
+.contact__form-name input {
+	font: normal normal 400 14px/19.07px "Open Sans";
+	width: 565.4px;
+	height: 34.4px;
+	border: 1px solid #FFFFFF;
+	border-bottom: 1px solid #BDBDBD;
+}
+
+.contact__form-name input:focus {
+	outline: none;
+	border: 1px solid #FFFFFF;
+	border-bottom: 1px solid #BDBDBD;
+}
+
+
+/* Настроки формы комментария */
+.contact__form-text {
+	height: 149.5px;
+	display: flex;
+	padding-top: 20px;
+}
+
+.contact__form-text textarea {
+	font: normal normal 400 14px/19.07px "Open Sans";
+	width: 567.4px;
+	border: 1px solid #FFFFFF;
+	border-bottom: 1px solid #BDBDBD;
+	padding: 0px;
+	resize: none; 
+}
+
+.contact__form-text textarea:focus {
+	outline: none;
+	border: 1px solid #FFFFFF;
+	border-bottom: 1px solid #BDBDBD;
+}
+
+/* Настройки кнопки */
+.contact__button {
+	height: 112px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact__button input {
+	font: normal normal 600 18px/24.51px "Open Sans";
+	color:#FFFFFF;
+	background-color: #EC7979;
+	width: 370px;
+	height: 58px;
+	padding: 0px;
+	border: 0px;
+}
+
+.contact__button input:hover {
+	background-color: #AB4949;
+	cursor: pointer;
+}
+
+.contact__button input:active {
+	background-color: #EC7979;
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+}

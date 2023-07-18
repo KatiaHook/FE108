@@ -1,0 +1,53 @@
+/* Блок "Подвал" */
+
+/* Ширина всего блока */
+.footer {
+	width: 100%;
+	background: #000000;
+}
+
+
+/* Раздел "Иконки" */
+.footer__icons {
+	width: 1170px;
+	margin: 0 auto;
+	padding-top: 12.7px;
+   padding-bottom: 12.7px;
+}
+
+/* Настройки Иконок */
+.footer__icon {
+	width: 593px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	cursor: pointer;
+}
+
+.footer__icon a, img {
+	width: 53.2px;
+	height: 53.2px;
+}
+
+
+/* Раздел "Содержание" */
+.footer__media {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/* Настройки Текста */
+.footer__media-text {
+	display: flex;
+	justify-content: center;
+	padding-top: 19.44px;
+   padding-bottom: 19.44px;
+}
+
+.footer__media-text p {
+	width: 1170px;
+	font: normal normal 400 18px/21.13px "Raleway";
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0px;
+}

@@ -1,0 +1,94 @@
+/* Блок "Контакты" */
+
+/* Ширина всего блока */
+.about {
+	width: 100%;
+	margin-bottom: 60px; 
+}
+
+
+/* Раздел "Заголовок с линеей" */
+/* Ширина и месторасположение раздела */
+.about__block {
+	width: 1170px;
+	margin: 0 auto;
+	padding-top: 61.11px;
+	padding-bottom: 61.11px;
+}
+
+/* Настроки заголовка, линии, текста */
+.about__heading {
+	display: flex;
+	flex-flow: column nowrap; /* Выравнить строку, блоки не переносятся  */
+}
+
+.about__title {
+	height: 150px;
+	justify-content: center;
+}
+
+.about__title h2 {
+	font: normal normal 400 36px/42.26px "Raleway";
+	text-align: center;
+	text-transform: uppercase; /* Задается высота текста */
+}
+
+.about__line {
+	width: 170px;
+	border-bottom: 1px solid #EC7979;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about__subtitle p {
+	font: normal normal 400 18px/21px "Raleway";
+	text-align: center;
+	color: #86878B;
+}
+
+
+/* Раздел "Сетка карточек" */
+/* Ширина и месторасположение раздела */
+.about__net-cards {
+	width: 1170px;
+	margin: 0 auto;
+}	
+
+/* Настроки всех карточек */
+.about__cards {
+	display: flex;
+	flex-flow: row nowrap; /* Выравнить строку, блоки не переносятся  */
+	justify-content: space-between;
+}
+
+/* Настроки каждой карточки */
+.about__card {
+	width: 370px;
+	height: 383px;
+	text-align: center;
+	display: inline-block;
+}
+
+.about__card img { 
+	width: 170px;
+	height: 170px;
+	object-fit: cover;  /* Что бы img не искажался */
+	display: flex;
+
+	margin-left: 100px;
+}
+
+.about__card h4 {
+	font: normal normal 700 24px/32.68px "Open Sans";
+	padding: 33.67px 50px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.about__card p {
+	font: normal normal 400 18px/21.13px "Raleway";
+	height: 105px;
+	margin: 0px;
+	display: flex;
+}

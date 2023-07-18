@@ -1,0 +1,54 @@
+/* Блок "Социальные сети" */
+
+/* Ширина всего блока */
+.social {
+	height: 140px;
+	background: #F8EFEF;
+}
+
+
+/* Раздел "Описание социальных сетей + Иконки" */
+/* Ширина и месторасположение раздела */
+.social__content-media {
+	width: 1170px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+}
+
+/* Настройки Описания социальных сетей"  */
+.social__content {
+	width: 470px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+}
+
+.social__content h4 {
+	font: normal normal 700 24px/32.68px "Open Sans";
+	color: #333333;
+	margin: 0px;
+}
+
+.social__content p {
+	font: normal normal 400 18px/21px "Raleway";
+	color: #86878B;
+	margin: 0px;
+}
+
+/* Настройки Иконок  */
+.social__media {
+	width: 700px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	cursor: pointer;
+}
+
+.social__media a {
+	width: 70px;
+	height: 70px;
+}
+
+
+

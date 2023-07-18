@@ -1,0 +1,90 @@
+/* Блок "Баннер-2" */
+	
+/* Ширина всего блока */
+.banner-bottom {
+	width: 100%; 
+	background: url(../img/Banner-bottom/Banner-bottom.svg);
+	background-blend-mode: multiply;
+	background-color: rgba(0, 0, 0, .5);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/* Раздел "Заголовок с линеей" */
+/* Ширина и месторасположение раздела */
+.banner-bottom__block {
+	width: 1170px;
+	margin: 0 auto;
+	padding-top: 61.11px;
+	padding-bottom: 61.11px;
+}
+
+/* Настроки заголовка, линии, текста */
+.banner-bottom__heading {
+	display: flex;
+	flex-flow: column nowrap; /* Выравнить строку, блоки не переносятся  */
+}
+
+.banner-bottom__title {
+	height: 150px;
+	justify-content: center;
+}
+
+.banner-bottom__title h2 {
+	font: normal normal 400 36px/42.26px "Raleway";
+	text-align: center;
+	text-transform: uppercase; /* Задается высота текста */
+	color: #FFFFFF;
+	}
+
+.banner-bottom__line {
+	width: 170px;
+	border-bottom: 1px solid #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.banner-bottom__subtitle p {
+	font: normal normal 400 18px/21px "Raleway";
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+/* Раздел "Вся кнопка" */
+/* Ширина и месторасположение раздела */
+.banner-bottom__all-buttom {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.banner-bottom__buttom {
+	height: 112px;
+	display: flex;
+	justify-content: center;
+}
+
+.banner-bottom__buttom input {
+	font: normal normal 600 18px/24.51px "Open Sans";
+	color:#FFFFFF;
+	width: 370px;
+	height: 58px;
+	border: 2px solid #FFFFFF;
+	background-color: transparent;
+	padding: 0px;
+}
+
+.banner-bottom__buttom input:hover {
+	color:#EC7979;
+	border: 2px solid #EC7979;
+	cursor: pointer;
+}
+
+.banner-bottom__buttom input:active {
+	color:#FFFFFF;
+	border: 2px solid #AB4949;
+	background-color: #AB4949;
+	cursor: pointer;
+}

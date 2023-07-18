@@ -1,0 +1,90 @@
+/* Блок "Обзоры" */
+
+/* Ширина всего блока  */
+.reviews {
+	width: 100%;
+	margin-bottom: 60px; 
+}
+
+
+/* Раздел "Отзывы людей" */
+/* Ширина и месторасположение раздела */
+.reviews__people {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/* Настроки всех отзывов */
+.reviews__contents {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Настроки каждого отзыва */
+.review__content {
+	width: 370px;
+	height: 336px;
+}
+
+/* Настроки текста в рамке */
+.review__text {
+	background-color: #E2E2E2;
+	height: 105px;
+	padding: 37.5px 0px 37.5px 0px;
+	border-radius: 10px;
+	margin: 0px;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.review__text p {
+	font: normal normal 400 18px/21.13px "Raleway";
+	text-align: center;
+	color: #86878B;
+	height: 105px;
+}
+
+/* Настроки треугольника */
+.review__text::after {
+	content:'';
+	width: 1.2px;
+	height: 0;
+	border-left: 15px solid rgba(0, 0, 0, 0);
+	border-right: 15px solid rgba(0, 0, 0, 0);
+	border-top: 20px solid #E2E2E2;
+	position: absolute;
+	top: 100%;
+	left: 100px;
+}
+
+/* Настроки изображения */
+.review__image {
+	padding-top: 86px;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Настроки отзыва от людей */
+.review__image-info {
+	height: 70px;
+	display: flex;
+	flex-flow: column nowrap;
+	flex-basis: 270px; /* Задаьть исходный размер flex-элемента */
+	justify-content: center;
+}
+
+.review__image-info h3 {
+	font: normal normal 700 24px/32.68px "Open Sans";
+	padding: 10.67px 0px 10.67px 0px;
+	margin: 0px;
+}
+
+.review__image-info p {
+	font: normal normal 400 18px/21px "Raleway";
+	padding: 0px;
+	margin: 0px;
+}
